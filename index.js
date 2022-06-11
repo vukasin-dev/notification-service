@@ -109,3 +109,5 @@ cron.schedule("0 3 * * *", async () => {
   });
   console.log(deleteResults);
 });
+
+// MONGODB_CONNECTION_STRING = "mongodb://docker:mongopw@localhost:55000"
